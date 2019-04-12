@@ -1,0 +1,35 @@
+source https://www.nuget.org/api/v2
+storage:none
+framework: netstandard2.0
+
+nuget FSharp.Core redirects:force
+nuget Fable.Core prerelease
+nuget Fable.Elmish prerelease
+nuget Fable.Elmish.React prerelease
+nuget Fable.Elmish.Browser prerelease
+nuget Fable.Elmish.Debugger prerelease
+nuget Fable.Elmish.HMR prerelease
+nuget Fable.React prerelease
+nuget Fable.Promise prerelease
+nuget Fulma prerelease
+nuget Fulma.Extensions.Wikiki.PageLoader prerelease
+nuget Fable.FontAwesome.Free prerelease
+nuget Thoth.Json prerelease
+
+group netcorebuild
+    storage:none
+    source https://www.nuget.org/api/v2
+    framework: netstandard2.0
+
+    clitool dotnet-fake
+    clitool dotnet-fable
+    nuget NETStandard.Library.NETFramework
+    nuget Fake.DotNet.Cli
+    nuget Fake.DotNet.Paket
+    nuget Fake.Core.Target
+    nuget Fake.Core.Process
+    nuget Fake.Core.String
+    nuget Fake.Core.ReleaseNotes
+    nuget Fake.IO.FileSystem
+    nuget Fake.Tools.Git
+    nuget Fake.JavaScript.Yarn
