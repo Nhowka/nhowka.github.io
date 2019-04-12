@@ -7,6 +7,7 @@
     <Compile Include="Router.fs" />
     <Compile Include="Types.fs" />
     <Compile Include="State.fs" />
+    <Compile Include="PageViews.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />

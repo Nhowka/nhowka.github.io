@@ -68,7 +68,9 @@ let private renderPage model dispatch =
           Hero.head [][
             navbarView lang model.IsBurgerOpen dispatch
           ]
-          Hero.body[][]
+          Hero.body[][
+            PageViews.view lang page
+          ]
           Hero.foot [][
             Tabs.tabs[
                Tabs.IsCentered
