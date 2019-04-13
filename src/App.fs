@@ -65,13 +65,13 @@ let private renderPage model dispatch =
     match model with
     | { CurrentPage = Router.Translated(lang,page) } ->
         Hero.hero [Hero.IsFullHeight] [
-          Hero.head [][
+          Hero.head [Props[Style[Top "0";ZIndex "30";Position Position.Sticky]]][
             navbarView lang model.IsBurgerOpen dispatch
           ]
           Hero.body[][
             PageViews.view lang page
           ]
-          Hero.foot [][
+          Hero.foot [Props[Style[Bottom "0";Position Position.Sticky]]][
             Tabs.tabs[
                Tabs.IsCentered
                Tabs.IsFullWidth
