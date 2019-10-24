@@ -72,7 +72,7 @@ let home lang =
                     """
                     """A primeira linguagem de programação de verdade que tive contato foi python.
                     Eu fiz alguns programinhas de calcular IMC e outras coisas com matemática, mas nada de útil.
-                    Então eu decidi aprender a API do Windows usando assembly na especificação x86 compinando com o MASM32.
+                    Então eu decidi aprender a API do Windows usando assembly na especificação x86 compilando com o MASM32.
                     Parece difícil mas como usava pra criar código que era injetado nos jogos, era a melhor ferramenta possível.
                     Aí veio a faculdade e eu tive que aprender a programação do dia a dia dos programadores profissionais.
                     Primeiro me ensinaram C como introdução e Java para programação orientada a objetos.
